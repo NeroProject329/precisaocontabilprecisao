@@ -1,0 +1,282 @@
+<!doctype html>
+<html lang="pt-BR">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Entre em contato com a Precisão Contábil."
+    />
+    <meta name="theme-color" content="#f7f9fb" />
+    <title>Contato | Precisão Contábil</title>
+    <link rel="icon" href="assets/img/favicon.svg" type="image/svg+xml" />
+    <link rel="stylesheet" href="assets/css/style.css?v=2" />
+  </head>
+  <body class="contact-page">
+    <a class="skip-link" href="#conteudo">Ir para o conteúdo</a>
+    <header class="site-header">
+      <div class="wrap header-inner">
+        <a
+          class="brand"
+          href="index.html"
+          aria-label="PC Precisão Contábil, página inicial"
+          ><span class="brand-mark" aria-hidden="true">PC</span
+          ><span class="brand-copy"
+            ><strong>Precisão Contábil</strong
+            ><span>Consultoria contábil</span></span
+          ></a
+        ><button
+          class="nav-toggle"
+          type="button"
+          data-nav-toggle
+          aria-expanded="false"
+          aria-controls="site-nav"
+        >
+          Menu
+        </button>
+        <nav
+          class="site-nav"
+          id="site-nav"
+          data-nav-menu
+          aria-label="Navegação principal"
+        >
+          <ul>
+            <li><a href="index.html">Início</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="servicos.html">Serviços</a></li>
+            <li><a href="contato.html" aria-current="page">Contato</a></li>
+          </ul>
+        </nav>
+        <a
+          class="header-contact"
+          data-company-href="mailto"
+          href="mailto:"
+          >Agendar <span>↗</span></a
+        >
+      </div>
+    </header>
+    <main id="conteudo">
+      <section class="page-hero">
+        <div class="wrap">
+          <p class="kicker hero-reveal">Contato</p>
+          <h1 class="hero-reveal">Vamos entender o seu momento.</h1>
+          <p class="lede hero-reveal">
+            Fale conosco pelo telefone abaixo e conte com uma equipe pronta para ajudar.
+          </p>
+        </div>
+      </section>
+      <section class="section">
+        <div class="wrap contact-layout">
+          <div class="contact-direct" data-reveal>
+            <a
+              data-company-href="mailto"
+              href="https://mail.google.com/mail/?view=cm&amp;fs=1&amp;to=contato%40contabilconsultoria.com"
+              target="_blank"
+              rel="noopener"
+              ><small>E-mail</small
+              ><strong data-company="contato.email"
+                ></strong
+              ></a
+            >
+            <button class="contact-copy-button" type="button" data-copy-email>
+              Copiar endereço de e-mail
+            </button>
+            <a data-company-href="tel" href="tel:+556233532828"
+              ><small>Telefone</small
+              ><strong data-company="contato.telefone"
+                >(62)&nbsp;3353&#8209;2828</strong
+              ></a
+            >
+            <address>
+              <small>Endereço comercial</small
+              ><strong data-company="endereco.completo"
+                >RUA 31, 352, CENTRO,
+                GOIANÉSIA - GO, CEP 76380-031</strong
+              >
+            </address>
+            <a data-company-href="maps" href="#" target="_blank" rel="noopener"
+              ><small>Localização</small
+              ><strong>Traçar rota no Google Maps ↗</strong></a
+            >
+          </div>
+          <form class="contact-form" data-contact-form data-reveal>
+            <div class="form-field">
+              <label for="nome">Nome</label
+              ><input
+                id="nome"
+                name="nome"
+                type="text"
+                autocomplete="name"
+                placeholder="Seu nome"
+                required
+              />
+            </div>
+            <div class="form-field">
+              <label for="email">E-mail</label
+              ><input
+                id="email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                placeholder="voce@empresa.com"
+                required
+              />
+            </div>
+            <div class="form-field">
+              <label for="telefone">Telefone</label>
+              <div class="phone-field">
+                <select id="codigo" name="codigo" aria-label="Código do país">
+                  <option value="+55" selected>+55</option></select
+                ><input
+                  id="telefone"
+                  name="telefone"
+                  type="tel"
+                  autocomplete="tel"
+                  inputmode="tel"
+                  placeholder="DDD e número"
+                  required
+                />
+              </div>
+            </div>
+            <div class="form-field">
+              <label for="assunto">Assunto</label
+              ><select id="assunto" name="assunto">
+                <option>Consultoria contábil</option>
+                <option>Planejamento tributário</option>
+                <option>Departamento pessoal</option>
+                <option>Consultoria empresarial</option>
+                <option>Outro assunto</option>
+              </select>
+            </div>
+            <div class="form-field form-field--wide">
+              <label for="mensagem">Como podemos ajudar?</label
+              ><textarea
+                id="mensagem"
+                name="mensagem"
+                placeholder="Conte brevemente a necessidade da sua empresa."
+                required
+              ></textarea>
+            </div>
+            <div class="form-field form-field--wide">
+              <button class="button" type="submit">
+                Preparar mensagem no Gmail <span aria-hidden="true">↗</span>
+              </button>
+              <p class="form-note">
+                O Gmail será aberto em uma nova aba. Revise a mensagem e conclua
+                o envio.
+              </p>
+            </div>
+            <p class="form-status" data-form-status hidden></p>
+          </form>
+        </div>
+      </section>
+      <section
+        class="contact-map-section color-reveal-section"
+        aria-labelledby="map-title"
+      >
+        <span class="section-wash" aria-hidden="true"></span>
+        <div class="wrap contact-map-grid">
+          <div class="contact-map-copy" data-reveal>
+            <p class="kicker">Onde estamos</p>
+            <h2 id="map-title">Encontre a Precisão Contábil.</h2>
+            <address data-company="endereco.completo">
+              RUA 31, 352, CENTRO,
+              GOIANÉSIA - GO, CEP 76380-031
+            </address>
+            <a
+              class="button button--ghost"
+              data-company-href="maps"
+              href="https://www.google.com/maps/search/?api=1&amp;query=RUA%20OSMAR%20JOSE%20GARCIA%20758%20CACHOEIRA%20DOURADA%20GO"
+              target="_blank"
+              rel="noopener"
+              >Abrir rota no Google Maps <span aria-hidden="true">↗</span></a
+            >
+          </div>
+          <div class="contact-map-frame" data-reveal>
+            <iframe
+              data-company-map
+              title="Mapa da localização da Precisão Contábil em Goianésia, Goiás"
+              src="https://maps.google.com/maps?q=RUA%2031%20352%20CENTRO%20GOIANESIA%20GO%2076380-031&amp;t=&amp;z=16&amp;ie=UTF8&amp;iwloc=&amp;output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"
+              allowfullscreen
+            ></iframe>
+          </div>
+        </div>
+      </section>
+    </main>
+    <footer class="site-footer">
+      <div class="wrap">
+        <div class="footer-grid">
+          <div class="footer-brand">
+            <a class="brand" href="index.html"
+              ><span class="brand-mark" aria-hidden="true">PC</span
+              ><span class="brand-copy"
+                ><strong>Precisão Contábil</strong
+                ><span>Consultoria contábil</span></span
+              ></a
+            >
+            <p>
+              <span data-company="razaoSocial"
+                >PRECISAO CONTABIL LTDA</span
+              ><br />CNPJ <span data-company="cnpj">00.418.186/0001-01</span><br />
+              Registro CRCGO
+              <span data-company="registroCrcgo">GO-000081/O-3</span>
+            </p>
+            <p class="small" data-company="endereco.completo">
+              RUA 31, 352, CENTRO,
+              GOIANÉSIA - GO, CEP 76380-031
+            </p>
+          </div>
+          <div class="footer-col">
+            <h2>Navegação</h2>
+            <ul>
+              <li><a href="sobre.html">Sobre</a></li>
+              <li><a href="servicos.html">Serviços</a></li>
+              <li><a href="contato.html">Contato</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h2>Legal</h2>
+            <ul>
+              <li><a href="privacidade.html">Privacidade</a></li>
+              <li><a href="termos.html">Termos de uso</a></li>
+              <li><a href="cookies.html">Cookies</a></li>
+            </ul>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <span>© <span data-current-year>2026</span> Precisão Contábil</span
+          ><a
+            data-company-href="mailto"
+            href="mailto:"
+            data-company="contato.email"
+            ></a
+          >
+        </div>
+      </div>
+    </footer>
+    <aside
+      class="cookie-notice"
+      data-cookie-notice
+      role="status"
+      aria-live="polite"
+    >
+      <p>
+        Usamos apenas recursos essenciais para o funcionamento do site. Consulte
+        nossa <a href="cookies.html">Política de Cookies</a>.
+      </p>
+      <button type="button" data-cookie-dismiss>Entendi</button>
+    </aside>
+    <script defer src="assets/js/company-data.js"></script>
+    <script defer src="assets/js/main.js?v=2"></script>
+  </body>
+</html>
+
+
+
+
+
+
+
+
